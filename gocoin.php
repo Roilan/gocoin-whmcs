@@ -74,6 +74,7 @@ function gocoin_link($params) {
               </select>';
 
     $code .= '<input type="button" value="Go" id="gocoin_buttion"><input type="hidden" id="g_data" value="'.$data.'"></div>';
+    $code .= '<script src="/includes/jsript/jquery.js></script>'
     $code .= '<script language="javascript">
 $( "#gocoin_buttion" ).click(function() {
   var paytype = $( "#paytype" ).val();
